@@ -19,6 +19,8 @@ management:
         include: routes,filters,info,health,prometheus,metrics
     prometheus:
       enabled: true
+puneet:
+  testconfig: Puneet is here
 
 eureka:
   datacenter: cloud
