@@ -1,0 +1,6 @@
+zuul:
+  sslHostnameValidationEnabled: false
+  routes:
+    users:
+      path: /testttt/**
+      url: 'node-sample-service-fp27274.sand-test-node:80'
