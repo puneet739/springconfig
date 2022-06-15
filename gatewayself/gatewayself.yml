@@ -1,3 +1,5 @@
+puneet: 
+  testconfig: HelloWorld
 zuul:
   sslHostnameValidationEnabled: false
   routes:
