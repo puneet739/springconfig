@@ -1,0 +1,20 @@
+puneet: 
+  testconfig: HelloWorld
+zuul:
+  sslHostnameValidationEnabled: false
+  routes:
+    users:
+      path: /nodeclient/**
+      url: 'node-sample-service-fp27274.sand-test-node:80'
+    users2:
+      path: /nodeclient1/**
+      url: 'http://10.133.132.214:80'
+    bored:
+      path: /bored/**
+      url: 'https://www.boredapi.com/api'
+    bored2:
+      path: /boredyy/**
+      url: 'https://www.boredapi.com/api'
+    puneetapp:
+      path: /puneetapp/**
+      url: 'http://haproxy.api.athena.io/puneetapp/'
