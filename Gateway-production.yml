@@ -14,5 +14,5 @@ zuul:
       path: /boredyy/**
       url: 'https://www.boredapi.com/api'
     puneetapp:
-      path: /puneetapp/**
+      path: /puneetappgatewayprod/**
       url: 'http://haproxy.api.athena.io/puneetapp/'
