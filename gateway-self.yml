@@ -20,4 +20,4 @@ zuul:
       url: 'http://haproxy.api.athena.io/puneetapp/'
     pbapp:
       path: /pbapp/**
-      url: 'http://haproxy.dev.api.athena.io:8088/pbapp/'
+      url: 'http://haproxy.dev.api.athena.io:8088/pbapp'
